@@ -1,9 +1,18 @@
-import React from 'react'
 
-export default function Services() {
+import React from 'react'
+import './services.css'
+import ListServices from './listServices'
+
+
+export const Services = () => {
   return (
-    <div>
-      <h1>Services</h1>
-    </div>
-  )
+    <section id="services">
+      <h5>What i offer</h5>
+      <h2>Services</h2>
+      <div className="container services__container">
+        <ListServices />
+      </div>
+    </section>
+  );
 }
+export default Services;

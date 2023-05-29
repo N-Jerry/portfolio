@@ -1,9 +1,18 @@
-import React from 'react'
 
-export default function Experience() {
+import React from "react";
+import "./experience.css";
+import ListExperiences from "./components/listExperiences";
+
+export const Experience = () => {
   return (
-    <div>
-      <h1>Experience</h1>
-    </div>
-  )
-}
+    <section id="experience">
+      <h5><i>What skills i have</i></h5>
+      <h2>My Experience</h2>
+      <div className="container experience__container">
+        <ListExperiences />
+      </div>
+    </section>
+  );
+};
+export default Experience;
+
