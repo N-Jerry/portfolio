@@ -9,13 +9,13 @@ import './footer.css'
 const Footer = () => {
     return (
       <div className="footer__container">
-        <a href="#" className="footer__logo">
-          Brown Alden
+        <a href="#footer" className="footer__logo">
+          NGULEFAC JERRY
         </a>
 
         <ul className="permalinks">
           <li>
-            <a href="#">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li>
             <a href="#about">About</a>
@@ -41,7 +41,7 @@ const Footer = () => {
           <a href="https://linkedin.com/in/ngulefac-jerry-023273270" target="blank">
             <BsLinkedin />
           </a>
-          <a href="https://github.com" target="blank">
+          <a href="https://github.com/N-Jerry/portfolio" target="blank">
             <FaGithub />
           </a>
           <a href="https://facebook.com" target="blank">

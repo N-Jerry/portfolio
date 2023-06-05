@@ -1,4 +1,3 @@
-
 import React from 'react'
 import './about.css'
 import moi from '../../assets/jerry.jpg'
